@@ -1,0 +1,9 @@
+apiVersion: app/v1
+kind: Deploment
+metadata:
+  name: tapp
+  namespace: myapp
+spec:
+    lable:
+    selector:
+    replicas: 2
